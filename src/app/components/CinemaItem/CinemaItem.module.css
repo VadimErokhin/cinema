@@ -1,0 +1,35 @@
+.wrapper:not(:last-child) {
+  margin-bottom: 88px;
+}
+
+.scrollWrapper {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 24px;
+  scroll-snap-type: x mandatory;
+  overflow: auto;
+}
+
+.title {
+  color: var(--main-white);
+  margin: 0;
+}
+
+.titleBtt {
+  background-color: transparent;
+  border: none;
+  color: var(--main-white);
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-right: 65px;
+}

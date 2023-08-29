@@ -1,0 +1,36 @@
+.hero {
+  background-image: url(../../../img/mainBackGround.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 720px;
+}
+
+.wrapper {
+  padding-top: 165px;
+  max-width: 810px;
+}
+
+.greeting {
+  color: var(--main-white);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.title {
+  font-size: 65px;
+  line-height: 72px;
+  font-weight:  700;
+  color: var(--main-white);
+}
+
+.description {
+  display: block;
+  color: var(--main-white);
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  max-width: 550px;
+}
+
+

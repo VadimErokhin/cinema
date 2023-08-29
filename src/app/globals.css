@@ -1,0 +1,21 @@
+@import "normalize.css";
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+:root {
+  --main-white: #fff;
+  --red-color: #F41B3B;
+  --black-100: #0A070B;
+  --gray-500: #737174;
+  --gray-400: #4F4E50;
+  --blue-color: #1884F7;
+  --gradient-color: linear-gradient(90deg, rgba(244, 27, 59, 1) 28%, rgba(24, 132, 247, 1) 82%);
+}
+
+.container {
+  padding: 0 75px;
+}
+
